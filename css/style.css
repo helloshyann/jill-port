@@ -1,22 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Glory&display=swap');
-
-.ephesis {
-    font-family: 'Ephesis', cursive;
-}
-
-.glory {
-    font-family: 'Glory', sans-serif;
-}
-
-.bold {
-    font-weight: 900;
-    font-size: larger;
-}
-
-main>.container {
-    padding: 60px 15px 0;
-    margin-bottom: 5rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Libre+Baskerville&display=swap');
 
 .sticky-nav {
     position: fixed;
@@ -25,14 +7,31 @@ main>.container {
     width: 100%;
 }
 
+.title {
+    font-family: 'Carattere', cursive;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.bold {
+    font-weight: 900;
+    font-size: larger;
+}
+
 .header{
     
-    background-color: #e688bb; 
+    background-color: #ffe4eb; 
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
-    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgb(156, 44, 123) 90%)
+    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgb(238, 14, 81) 90%)
 
+}
+
+.header-card {
+    background-color: #f5aac1;
 }
 
 @media only screen and (min-width: 992px) {
