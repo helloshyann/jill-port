@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Glory&display=swap');
+
+.ephesis {
+    font-family: 'Ephesis', cursive;
+}
+
+.glory {
+    font-family: 'Glory', sans-serif;
+}
+
+.bold {
+    font-weight: 900;
+    font-size: larger;
+}
+
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.header{
+    
+    background-color: #e688bb; 
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgb(156, 44, 123) 90%)
+
+}
+
+@media only screen and (min-width: 992px) {
+    .header{
+        background-image: url("/img/JillPrestonLarge.png");
+        min-height: 480px;
+    }
+  
+}
+
+@media only screen and (min-width: 576px) and (max-width:991px) {
+    .header {
+        background-image: url("/img/JillPrestonSmall.png");
+    }
+}
